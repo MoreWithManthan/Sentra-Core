@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 RULES_URL = os.getenv(
     "YARA_RULES_URL",
-    "https://raw.githubusercontent.com/YARA-Rules/rules/master/malware/MALW_Active.yar"
+    "https://raw.githubusercontent.com/Neo23x0/signature-base/master/yara/generic_anomalies.yar"
 )
 RULES_PATH = os.getenv("RULES_PATH", "backend/engine/rules/active_threats.yar")
 
